@@ -9,9 +9,10 @@ import java.util.Set;
 
 @Component
 public class Basket {
-    private final Set<Integer> baskets = new HashSet<>();
+    private final Set<Integer> baskets;
 
     public Basket() {
+        this.baskets = new HashSet<>();
     }
 
     public Set<Integer> getBasket() {
